@@ -1,16 +1,63 @@
-# React + Vite
+# Advanced Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich, modern todo application built with React, Vite, and Tailwind CSS. Includes drag & drop, dark mode, categories, due dates, and advanced filtering.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**[View Live Todo App](https://suganthan23.github.io/todo-app)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Core Functionality
+- ✅ **Add, Edit, Delete** todos with inline editing
+- ✅ **Mark as Complete** with visual feedback
+- ✅ **Drag & Drop Reordering** for custom organization
+- ✅ **Local Storage Persistence** - never lose your todos
 
-## Expanding the ESLint configuration
+### Advanced Features
+- 🎨 **Dark Mode Toggle** with system preference detection
+- 📅 **Due Dates** with overdue indicators and smart filtering
+- 🏷️ **Categories** (Personal, Work, Shopping, Health, Learning)
+- ⭐ **Priority Levels** (High, Medium, Low) with visual indicators
+- 🔍 **Advanced Search** with text highlighting
+- 📊 **Statistics Dashboard** with category breakdown
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Filtering & Organization
+- 🔽 **Multiple Filters** (Status, Priority, Category, Due Date)
+- 🔄 **Dynamic Sorting** (Date, Priority, Alphabetical, Due Date)
+- 🚨 **Quick Filters** (Overdue, High Priority, Active, Completed)
+- 📈 **Real-time Statistics** with filtered view insights
+
+### User Experience
+- ⌨️ **Keyboard Shortcuts** for power users
+- 📱 **Responsive Design** works on all devices
+- 🎯 **Smart Empty States** with helpful guidance
+- 💾 **Data Export/Import** for backup and migration
+- 🔄 **Cross-tab Synchronization** via localStorage events
+
+## 🛠️ Technologies Used
+
+- **React 18** - Modern React with hooks
+- **Vite** - Lightning-fast build tool
+- **Tailwind CSS v4** - Utility-first styling
+- **React Beautiful DnD** - Drag and drop functionality
+- **Local Storage API** - Client-side persistence
+- **Custom Hooks** - Clean state management
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (version 16 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+     git clone https://github.com/Suganthan23/todo-app.git
+     cd todo-app
+2. **Install dependencies**
+     npm install
+3. **Start development server**
+     npm run dev
+4. **Open in browser**
+     http://localhost:5173
