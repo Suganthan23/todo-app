@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 
+           transition-colors duration-200 font-medium;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-300 
+           transition-colors duration-200 font-medium;
+  }
+  
+  .btn-danger {
+    @apply bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 
+           transition-colors duration-200 text-sm;
+  }
+  
+  .todo-item {
+    @apply bg-white border border-gray-200 rounded-lg p-4 shadow-sm 
+           hover:shadow-md transition-shadow duration-200;
+  }
+  
+  .todo-completed {
+    @apply bg-gray-50 text-gray-500;
+  }
+  
+  .priority-high {
+    @apply border-l-4 border-red-500;
+  }
+  
+  .priority-medium {
+    @apply border-l-4 border-yellow-500;
+  }
+  
+  .priority-low {
+    @apply border-l-4 border-green-500;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background-color: #f8fafc;
+}
